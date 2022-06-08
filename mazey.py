@@ -39,3 +39,7 @@ with st.sidebar:
         "Choose your Zodiac",
         (zodiac)
     )
+
+  st.write('HOROSCOPE for 2022')
+
+if (x=='Scorpio')
