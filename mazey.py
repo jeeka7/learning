@@ -23,12 +23,3 @@ plt.ylabel("pen sold")
 plt.xlabel("price")
 plt.title("Horizontal bar graph")
 plt.show()
-
-
-
-class HelloWorld():
-    @cherrypy.expose
-    def index(self):
-        return st.write("Hello World!")
-
-ch.quickstart(HelloWorld())
