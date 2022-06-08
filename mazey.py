@@ -30,4 +30,8 @@ with col4:
     st.write(earth)
 
 zodiac=['Scorpio','Pisces','Cancer','Aries','Leo','Sagittarius','Libra', 'Aquarius', 'Gemini','Capricorn','Taurus', 'Virgo']
-st.radio('What is your zodiac ?',(zodiac))
+with st.sidebar:
+    add_radio = st.radio(
+        "Choose your Zodiac",
+        (zodiac)
+    )
