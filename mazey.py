@@ -42,4 +42,7 @@ with st.sidebar:
 
   st.write('HOROSCOPE for 2022')
 
-if (x=='Scorpio')
+if (x=='Scorpio'):
+    st.write('Scorpios are the dumbest pepople')
+elif (x=='Capricorn'):
+    st.write('Capricorns thenk they are very smart')
