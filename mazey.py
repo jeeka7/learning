@@ -30,4 +30,4 @@ with col4:
     st.write(water)
 
 zodiac=['Scorpio','Pisces','Cancer','Aries','Leo','Sagittarius','Libra', 'Aquarius', 'Gemini','Capricorn','Taurus', 'Virgo']
-st.radio(what is your zodiac',(zodiac))
+st.radio('What is your zodiac ?',(zodiac))
