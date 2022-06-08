@@ -44,4 +44,4 @@ st.write('HOROSCOPE for 2022')
 if (x=='Scorpio'):
     st.write('Scorpios are the dumbest pepople')
 elif (x=='Capricorn'):
-    st.write('Capricorns thenk they are very smart')
+    st.write('Capricorns think they are very smart')
