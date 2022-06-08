@@ -39,8 +39,7 @@ with st.sidebar:
         "Choose your Zodiac",
         (zodiac)
     )
-
-  st.write('HOROSCOPE for 2022')
+st.write('HOROSCOPE for 2022')
 
 if (x=='Scorpio'):
     st.write('Scorpios are the dumbest pepople')
