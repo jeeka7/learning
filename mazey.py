@@ -1,4 +1,5 @@
 import streamlit as st
+import cherrypy as ch
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -23,11 +24,11 @@ plt.xlabel("price")
 plt.title("Horizontal bar graph")
 plt.show()
 
-import cherrypy
+
 
 class HelloWorld(object):
     @cherrypy.expose
     def index(self):
-        return "Hello World!"
+        return st.write("Hello World!")
 
-cherrypy.quickstart(HelloWorld())
+ch.quickstart(HelloWorld())
