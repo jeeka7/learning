@@ -6,26 +6,28 @@ with col1:
     st.header("Water Signs")
     st.image("water.jpg")
     water=['Scorpio','Pisces','Cancer']
-    x=st.radio('what is your zodiac',(water))
+    st.write(water)
 
 
 with col2:
     st.header("Fire Signs")
     st.image("fire.jpg")
-    fire=['Aries','Leoi','Sagittarius']
-    x=st.radio('what is your zodiac',(fire))
+    fire=['Aries','Leo','Sagittarius']
+    st.write(fire)
 
 
 with col3:
     st.header("Air Signs")
     st.image("air.jpg")
     air=['Libra', 'Aquarius', 'Gemini']
-    x=st.radio('what is your zodiac',(air))
+    st.write(air)
 
 
 with col4:
     st.header("Earth Signs")
     st.image("earth.jpg")
     earth=['Capricorn','Taurus', 'Virgo']
-    x=st.radio('what is your zodiac',(earth))
-st.write(x)
+    st.write(water)
+
+zodiac=['Scorpio','Pisces','Cancer','Aries','Leo','Sagittarius','Libra', 'Aquarius', 'Gemini','Capricorn','Taurus', 'Virgo']
+st.radio(what is your zodiac',(zodiac))
