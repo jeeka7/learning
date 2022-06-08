@@ -27,7 +27,7 @@ with col4:
     st.header("Earth Signs")
     st.image("earth.jpg")
     earth=['Capricorn','Taurus', 'Virgo']
-    st.write(water)
+    st.write(earth)
 
 zodiac=['Scorpio','Pisces','Cancer','Aries','Leo','Sagittarius','Libra', 'Aquarius', 'Gemini','Capricorn','Taurus', 'Virgo']
 st.radio('What is your zodiac ?',(zodiac))
