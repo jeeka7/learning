@@ -5,7 +5,7 @@ col1, col2, col3 , col4 = st.columns(4)
 with col1:
     st.header("Water Signs")
     st.image("water.jpg")
-    water='Scorpio','Pisces','Cancer'
+    water='Scorpio\n','Pisces\n','Cancer'
     st.write(water)
 
 
