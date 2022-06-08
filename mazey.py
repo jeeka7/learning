@@ -10,21 +10,21 @@ with col1:
 
 
 with col2:
-    st.header("A dog")
+    st.header("Fire Signs")
     st.image("fire.jpg")
     fire=['Aries','Leoi','Sagittarius']
     x=st.radio('what is your zodiac',(fire))
 
 
 with col3:
-    st.header("An owl")
+    st.header("Air Signs")
     st.image("air.jpg")
     air=['Libra', 'Aquarius', 'Gemini']
     x=st.radio('what is your zodiac',(air))
 
 
 with col4:
-    st.header("An owl")
+    st.header("Earth Signs")
     st.image("earth.jpg")
     earth=['Capricorn','Taurus', 'Virgo']
     x=st.radio('what is your zodiac',(earth))
